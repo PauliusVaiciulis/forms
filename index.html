@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+      <style>
+          .input {
+            margin: 8px 0px 8px 0px;
+          }
+      </style>
+</head>
+<body>
+    <form>
+    <fieldset style="display: flex">
+        <legend>HTML forms</legend>
+        <div class="input">
+            <label for="name">Name:</label><br>
+            <input id="name" type="text" placeholder="Your name">
+        </div>
+
+        <div class="input">
+            <label for="surname">Surname:</label><br>
+            <input id="surname" type="text" placeholder="Your surname">
+        </div>
+
+        <div class="input">
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" placeholder="Your email">
+        </div>
+
+        <div class="input">
+            <label for="mobile">Phone number:</label><br>
+            <input id="mobile" type="tel" placeholder="Your phone number">
+        </div>
+
+        <div class="input">
+            <label for="age">Age:</label><br>
+            <input id="age" type="number" min="8" max="120">
+        </div>
+
+        <div class="input">
+            <label for="meatPreference">Favourite Food:</label><br>
+            <select id="meatPreference">
+                <option>Meat</option>
+                <option>Fish</option>
+                <option>Yes</option>
+            </select>
+        </div>
+
+        <p>Gender:</p>
+
+        <div class="input">
+            <label for="male">Male</label><br>
+            <input id="male" type="radio" name="gender">
+        </div>
+
+        <div class="input">
+            <label for="female">Female</label><br>
+            <input id="female" type="radio" name="gender">
+        </div>
+
+        <div class="input">
+            <label for="otherGender">Other</label><br>
+            <input id="otherGender" type="radio" name="gender">
+        </div>
+
+        <div class="input">
+            <input type="file">
+        </div>
+
+        <div class="input">
+            <label for="date">Date:</label><br>
+            <input id="date" type="date">
+        </div>
+
+        <div class="input">
+            <label for="message">Enter your message:</label><br>
+            <textarea placeholder="Message. . ." id="message"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
